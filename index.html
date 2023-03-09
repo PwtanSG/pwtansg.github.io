@@ -51,6 +51,28 @@
     <div class="container">
         <div class="row row-content align-items-center">
             <div class="col-12 col-sm-4 col-md-3">
+                <h3>AWS Lambda + AWS API Gateway +  AWS DynamoDB</h3>
+            </div>
+            <div class="col col-sm col-md">
+                <div class="media">
+                    <div class="media-body">
+                        <h2 class="mt-0"><a href="https://github.com/PwtanSG/serverless-api"> REST API using AWS Lambda (NodeJs) + AWS API Gateway +  AWS DynamoDB</a></h2>
+                        <p class="d-sm-block">
+                            <br><a href="">CRUD API Endpoints</a>
+                            <li><a href="https://tru0g8ptbg.execute-api.us-east-1.amazonaws.com/prod/products">Get all products</a></li>
+                            <li><a href="https://tru0g8ptbg.execute-api.us-east-1.amazonaws.com/prod/product?productId=1001">Get productId=1001</a></li> 
+                            <li><strong>Create new product :</strong> curl -X POST -H "Content-Type: application/json" -d "{\"productId\": \"1012\",\"productName\": \"dummy\",\"qty\": 123456}" https://tru0g8ptbg.execute-api.us-east-1.amazonaws.com/prod/product</li> 
+                            <li><strong>Delete product :</strong> curl -X DELETE  -H "Content-Type: application/json" -d "{\"productId\": \"1012\"}" https://tru0g8ptbg.execute-api.us-east-1.amazonaws.com/prod/product</li>
+                            <li><strong>Edit Product :</strong> curl -X PATCH -H "Content-Type: application/json" -d "{\"productId\": \"1001\",\"updateKey\": \"qty\",\"updateValue\": 123}" https://tru0g8ptbg.execute-api.us-east-1.amazonaws.com/prod/product</li>
+                            <br>Deployed on AWS<br>  
+                            <a href="https://github.com/PwtanSG/serverless-api">Github Repository</a>                                                      
+                        </p>        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-4 col-md-3">
                 <h3>Mern stack -  MongoDB, Express, React JS, Node JS, </h3>
             </div>
             <div class="col col-sm col-md">
