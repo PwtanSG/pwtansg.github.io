@@ -34,8 +34,8 @@
                     <li class="nav-item active"><a class="nav-link" href="https://github.com/PwtanSG"><span
                                 class="fa fa-github fa-lg"></span> GitHub </a></li>
                     <li class="nav-item active"><a class="nav-link"
-                            href="https://www.linkedin.com/in/pang-wee-tan/"><span
-                                class="fa fa-linkedin fa-lg"></span> Linkedin</a></li>
+                            href="https://www.linkedin.com/in/pang-wee-tan/"><span class="fa fa-linkedin fa-lg"></span>
+                            Linkedin</a></li>
                     <li class="nav-item active"><a class="nav-link"
                             href="https://www.youtube.com/@pangweetan6023/featured"><span
                                 class="fa fa-youtube fa-lg"></span> Youtube</a></li>
@@ -64,35 +64,21 @@
             <div class="col col-sm col-md">
                 <div class="media">
                     <div class="media-body">
-                        <h2 class="mt-0"><a href="http://product-inventory-pwt.s3-website-us-east-1.amazonaws.com/"> Frontend - Custom domain with HTTPS, AWS Route 53, React JS host
-                                on AWS S3 via Cloudfront. <br /> Backend - REST API using AWS Lambda (NodeJs) + AWS API Gateway + AWS
-                                DynamoDB</a></h2>
+                        <h3 class="mt-0"><a href="https://www.demo-dev.website/" target="_blank"> Fullstack solution using AWS services</a></h3>
                         <p class="d-sm-block">
                             <strong>FRONTEND</strong>
-                            <li><a href="https://www.demoworks.online"></a> - Custom domain + https AWS Route 53, Cert Manager</li>
-                            <li>React JS hosted on AWS S3 Static web hosting via AWS Cloudfront
+                            <li><b>AWS Cognito:</b> Implement User management & login</li>
+                            <li><b>AWS Route 53:</b> Implement DNS Custom domain <a href="https://www.demo-dev.website/">https://www.demo-dev.website</a></li>
+                            <li><b>AWS Cert manager: </b> <a href="https://www.demo-dev.website/">Handles https</a></li>
+                            <li><b>AWS S3 & AWS Cloudfront: </b> Hosting frontend React JS via AWS Cloudfront
                                 <a href="https://github.com/PwtanSG/react-frontend-aws">Github Repository</a>
                                 <!-- <a href="https://github.com/PwtanSG/aws-s3-react-frontend">Github Repository</a> -->
                             </li>
                             <br><strong>BACKEND</strong>
-                            <li>Node JS running on AWS Lambda serverless service<a
+                            <li><b>AWS API-Gateway:</b> Implement REST API CRUD resource + secure with API key + JWT token authorizer</li>
+                            <li><b>AWS Lambda serverless:</b> To implement business logic code in Node JS <a
                                     href="https://github.com/PwtanSG/serverless-api"> Github Repository</a></li>
-                            <li>Database : No SQL DB using AWS DynamoDB</li>
-                            <li>REST API CRUD Endpoints on AWS API-Gateway</li>
-                            <a href="https://tru0g8ptbg.execute-api.us-east-1.amazonaws.com/prod/products">Get all
-                                products</a>
-                            <br><a
-                                href="https://tru0g8ptbg.execute-api.us-east-1.amazonaws.com/prod/product?productId=1001">Get
-                                productId=1001</a>
-                            <br><a href="">Create new product :</a> curl -X POST -H "Content-Type: application/json"
-                            -d "{\"productId\": \"10012\",\"productName\": \"dummy\",\"qty\": 123456}"
-                            https://tru0g8ptbg.execute-api.us-east-1.amazonaws.com/prod/product
-                            <br><a href="">Delete product :</a> curl -X DELETE -H "Content-Type: application/json" -d
-                            "{\"productId\": \"10012\"}"
-                            https://tru0g8ptbg.execute-api.us-east-1.amazonaws.com/prod/product
-                            <br><a href="">Edit Product :</a> curl -X PATCH -H "Content-Type: application/json" -d
-                            "{\"productId\": \"10001\",\"updateKey\": \"qty\",\"updateValue\": 123}"
-                            https://tru0g8ptbg.execute-api.us-east-1.amazonaws.com/prod/product
+                            <li><b>AWS DynamoDB:</b> No SQL DataBase to persist records</li>
                         </p>
                     </div>
                 </div>
@@ -108,12 +94,15 @@
                         <h2 class="mt-0">React JS Frontend with Backend Rest API using NodeJs Express</h2>
                         <h3 class="mt-0"><a href="http://react-tailwind-store.s3-website-us-east-1.amazonaws.com/">React
                                 JS Frontend hosted on AWS S3</a></h3>
-                        <p class="d-sm-block">React Js using Tailwind CSS as <a href="http://react-tailwind-store.s3-website-us-east-1.amazonaws.com/">frontend</a> displaying dynamic data from Node
+                        <p class="d-sm-block">React Js using Tailwind CSS as <a
+                                href="http://react-tailwind-store.s3-website-us-east-1.amazonaws.com/">frontend</a>
+                            displaying dynamic data from Node
                             JS backend
                             <a href="https://github.com/PwtanSG/react-tailwind-store">Github Repository</a>
                         </p>
                         <br>
-                        <h3 class="mt-0"><a href="http://52.221.183.219:8081/api/products">REST API using Node Js Express
+                        <h3 class="mt-0"><a href="http://52.221.183.219:8081/api/products">REST API using Node Js
+                                Express
                                 deployed on AWS EC2 & RDS MySQL</a></h3>
                         <p class="d-sm-block">
                             Using Node JS Express to implement REST API of grocery store to manage product and customer
@@ -206,15 +195,18 @@
         </div>
         <div class="row row-content align-items-center" id="asp-net-mvc-cs">
             <div class="col-12 col-sm-4 col-md-3">
-                <h3>ASP.NET MVC, C# CRUD APP  </h3>
+                <h3>ASP.NET MVC, C# CRUD APP </h3>
             </div>
             <div class="col col-sm col-md">
                 <div class="media">
                     <div class="media-body">
-                        <h2 class="mt-0"><a href="https://hrms20230510204231.azurewebsites.net/">Employee management app</a></h2>
+                        <h2 class="mt-0"><a href="https://hrms20230510204231.azurewebsites.net/">Employee management
+                                app</a></h2>
                         <p class="d-sm-block">
-                            A CRUD App for using ASP.NET MVC, C#, Entity Framework and MSSQL for employee management.<br>
-                            <a href="https://hrms20230510204231.azurewebsites.net/">Deployed on Azure App Services and Azure SQL database</a><br>
+                            A CRUD App for using ASP.NET MVC, C#, Entity Framework and MSSQL for employee
+                            management.<br>
+                            <a href="https://hrms20230510204231.azurewebsites.net/">Deployed on Azure App Services and
+                                Azure SQL database</a><br>
                             <a href="https://github.com/PwtanSG/hrms">Github Repository</a>
                         </p>
                     </div>
@@ -247,10 +239,12 @@
                         <h2 class="mt-0"><a href="http://52.221.183.219/">Visitor Management System</a></h2>
                         <p class="d-sm-block">
                             Visitor Management System using Laravel, Bootstrap and MySQL with admin auth<br>
-                            <a href="http://52.221.183.219/">LEMP stack deployed on AWS EC2, Linux Ubuntu, Nginx, MySQL, PHP Laravel</a><br>
+                            <a href="http://52.221.183.219/">LEMP stack deployed on AWS EC2, Linux Ubuntu, Nginx, MySQL,
+                                PHP Laravel</a><br>
                             <br> admin@email.com | password <br>
-                            Features 
-                            - Visitor Registration , Admin login, Admin Management View, Admin Dashboard, Filter/search, Export PDF/Excel, Contact Us emailing  <br>
+                            Features
+                            - Visitor Registration , Admin login, Admin Management View, Admin Dashboard, Filter/search,
+                            Export PDF/Excel, Contact Us emailing <br>
                             <a href="https://github.com/PwtanSG/visitor-app">Github Repository</a><br>
                             <a href="https://www.youtube.com/watch?v=Rkdhy4nRgrw">Demo video</a>
                         </p>
@@ -333,8 +327,7 @@
                 </div>
                 <div class="col-12 col-sm-4 align-self-center">
                     <div class="text-center">
-                        <a class="btn btn-social-icon btn-linkedin"
-                            href="https://www.linkedin.com/in/pang-wee-tan"><i
+                        <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/pang-wee-tan"><i
                                 class="fa fa-linkedin fa-lg"></i></a>
                         <a class="btn btn-social-icon btn-google"
                             href="https://www.youtube.com/@pangweetan6023/featured"><i
